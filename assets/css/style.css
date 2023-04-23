@@ -2,7 +2,7 @@
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
-  margin-top: 25rem;
+  margin-top: 8rem;
 }
 
 span {
@@ -11,3 +11,46 @@ span {
   border-radius: 0.5rem;
   margin: 0 0.5rem;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  font-size: 1.5rem;
+}
+
+label {
+  margin-bottom: 1rem;
+}
+
+input[type=datetime-local] {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 25rem;
+}
+
+button[type=submit] {
+  background-color: #767676;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 25rem;
+}
+
+button[type=submit]:hover {
+  background-color: #151515;
+}
+.title{
+  margin-top: 10rem;
+  text-align: center;
+}
+

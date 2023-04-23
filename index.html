@@ -6,13 +6,22 @@
     <link rel="stylesheet" href="/CountDownTimer/assets/css/style.css">
   </head>
   <body>
+
+    <div class="container">
+    <h1 class="title">COUNTDOWN</h1>
+    <form>
     
-    <div id="timer">
+      <input type="datetime-local" id="countdown-date" name="countdown-date">
+      <button type="submit" id="start-btn">Start Countdown</button>
+    </form>
+
+    <div id="timer" style="display:none;">
       <span id="days"></span>: 
       <span id="hours"></span>:
       <span id="minutes"></span>:
       <span id="seconds"></span>
     </div>
+  </div>
 
     <script src="/CountDownTimer/assets/Js/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
